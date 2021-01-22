@@ -1,0 +1,18 @@
+create database result;
+
+use result;
+
+create table user(name varchar(200),ph varchar(200),email varchar(200),addr varchar(200),userid varchar(200),pass varchar(200));
+
+create table CO1(Sl_No varchar(200),USN varchar(200),Names varchar(200),Q1a varchar(200),Q1b varchar(200),Q1c varchar(200),Q1d varchar(200),Q2a varchar(200),Q2b varchar(200),Q2c varchar(200),Q2d varchar(200),Q3a varchar(200),Q3b varchar(200));
+
+create table CO2(Sl_No varchar(200),USN varchar(200),Names varchar(200),Q1a varchar(200),Q1b varchar(200),Q1c varchar(200),Q1d varchar(200),Q2a varchar(200),Q2b varchar(200),Q2c varchar(200));
+
+create table CO3(Sl_No varchar(200),USN varchar(200),Names varchar(200),Q1a varchar(200),Q1b varchar(200),Q1c varchar(200),Q1d varchar(200),Q2a varchar(200),Q2b varchar(200),Q2c varchar(200),GRADE VARCHAR(200));
+
+create table lab(Sl_No varchar(200),USN varchar(200),Names varchar(200),COMPONENT1 varchar(200),COMPONENT2 varchar(200),COMPONENT3 varchar(200));
+
+create table mapping(Excellent varchar(200),Good varchar(200),Average varchar(200),Poor varchar(200));
+
+create table result(CO1 varchar(200),CO2 varchar(200),CO3 varchar(200),CO4 varchar(200),CO5 varchar(200));
+
